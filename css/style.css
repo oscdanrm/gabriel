@@ -1,0 +1,446 @@
+@font-face {
+  font-family: bebas;
+  src: url(bebas/Bebas-Regular.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    position: fixed;
+    padding: 25px 15px;
+    background: #fff;
+    height: 100%;
+    font-family: bebas;
+    z-index: 999999;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+
+.burge-menu {
+    width: 41px;
+    cursor: pointer;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.burge-menu img{
+    width: 100%;
+}
+
+.footer-rs {
+    position: absolute;
+    bottom: 70px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    width: 50px;
+}
+
+.redes-logo a img{
+    width: 100%;
+}
+
+.redes-logo {
+    width: 50px;
+}
+
+header {
+    display: none;
+}
+
+.secctions {
+    width: 100%;
+    height: 100%;
+}
+
+.home-section {
+    background: url(../img/home/background.png);
+    width: 100%;
+    height: 100%;
+}
+
+.bann2-section {
+    background: url(../img/bann2/background.png);
+    width: 100%;
+    height: 100%;
+}
+
+.lunar-back {
+    background: url(../img/home/puntos.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.main-box {
+    width: 900px;
+    margin: 0px auto;
+    height: 100%;
+    position: relative;
+}
+
+.cont-logo {
+    position: absolute;
+    left: -35px;
+    top: 10%;
+    width: 230px;
+}
+
+.cont-logo img{
+    width: 100%;
+}
+
+.circle {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 30%;
+	width: 50%;
+	margin: -25% 0 0 -25%;
+}
+
+.circle-center {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 30%;
+	width: 50%;
+	margin: -25% 0 0 -25%;
+}
+
+.circle-center img{
+    width: 100%;
+}
+
+.circle img{
+    width: 100%;
+}
+
+
+
+.cont-body {
+    width: 60%;
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    bottom: -2px;
+}
+
+.cont-body-center {
+    width: 100%;
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    bottom: -2px;
+}
+
+.cont-body-center img{
+    width: 100%;
+    
+}
+
+.cont-body img{
+    width: 100%;
+}
+
+.text-title {
+    width: 300px;
+    font-size: 110px;
+    font-family: bebas;
+    color: #fff;
+    position: absolute;
+    bottom: 25%;
+    left: 100px;
+    line-height: 1;
+}
+
+.text-title-center {
+    width: 500px;
+    font-size: 110px;
+    font-family: bebas;
+    color: #fff;
+    position: absolute;
+    bottom: 30%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1;
+    text-align: center;
+}
+
+.bloque-text {
+    width: 250px;
+    position: absolute;
+    bottom: 15%;
+    right: 50px;
+}
+
+.bloque-text-center {
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 170px;
+    padding: 20px 15px;
+    background: red;
+    border-radius: 50px;
+    color: #fff;
+    font-family: bebas;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button2 {
+    width: 170px;
+    background: #0b3f8f;
+    padding: 20px 15px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: bebas;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.button-center {
+    width: 170px;
+    padding: 20px 15px;
+    background: orange;
+    border-radius: 50px;
+    color: #fff;
+    font-family: bebas;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.bebas {
+    font-family: bebas;
+}
+
+.azul {
+    color: skyblue;
+}
+
+.bann3-section {
+    background: url(../img/bann3/background.png);
+    width: 100%;
+    height: 100%;
+}
+
+.cont-logo-center {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    width: 230px;
+    z-index: 1;
+}
+
+.cont-logo-center img{
+    width: 100%;
+}
+
+
+.interior1 {
+    background: url(../img/interior1/BACK_01.png);
+    width: 100%;
+    height: 100%;
+}
+
+.interior2 {
+    background:#ffba00;
+    width: 100%;
+    height: 100%;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: 0px auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0px auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.percent-30 {
+    width: 50%;
+    padding: 10px;
+    line-height: 0.9;
+}
+
+.f100 {
+    font-size: 100px;
+}
+
+.white {
+    color: #fff;    
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.box-blue {
+    padding: 10px;
+    background: rgb(4,126,150);
+    background: linear-gradient(90deg, rgba(4,126,150,1) 50%, rgba(0,87,159,0) 100%, rgba(0,0,0,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.percent-70 {
+    width: 70%;
+}
+
+.cont-title {
+    font-family: bebas;
+    font-size: 95px;
+    color: #fff;
+}
+
+
+
+.cont-center {
+    width: 80%;
+}
+
+.flex-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cont-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.cont-img:hover > .txt-img{
+    display: none;
+}
+
+.cont-img:hover > .txt-hover{
+    display: flex;
+}
+
+.img1 {
+    background: url(../img/interior2/t-shirt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url(../img/interior2/sweater.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background: url(../img/interior2/tote-bag.png)  ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cont-images {
+   flex-wrap: nowrap;
+}
+
+.txt-img {
+    font-family: bebas;
+    color: #fff;
+    font-size: 90px;
+    text-shadow: 1px 1px #000;
+}
+
+.txt-hover {
+    display: none;
+    background: rgb(203,117,1);
+    background: linear-gradient(90deg, rgba(203,117,1,1) 36%, rgba(246,161,6,0.43881302521008403) 100%, rgba(0,0,0,0) 100%, rgba(0,0,0,0) 100%);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 15px;
+}
