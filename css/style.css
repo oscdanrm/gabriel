@@ -85,12 +85,14 @@ header {
     background: url(../img/home/background.png);
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .bann2-section {
     background: url(../img/bann2/background.png);
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .lunar-back {
@@ -276,6 +278,7 @@ header {
     background: url(../img/bann3/background.png);
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .cont-logo-center {

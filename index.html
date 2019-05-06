@@ -24,7 +24,7 @@
             </div> 
             <div class="secctions">
                 <section class="home-section">
-                    <div class="lunar-back">
+                    <div class="lunar-back" data-stellar-background-ratio="0.5" >
                         <div class="main-box">
                             <div class="cont-logo">
                                 <img src="img/home/logo-gabriel-printing.png">
@@ -37,7 +37,7 @@
                                 <img src="img/home/hombre-feliz.png">
                             </div>
                             
-                            <div class="text-title">
+                            <div class="text-title welcome-msgw">
                                 <p>lorem ipsum dolor</p>
                             </div> 
                             
@@ -51,12 +51,12 @@
                 </section>
                 
                 <section class="bann2-section">
-                    <div class="lunar-back">
+                    <div class="lunar-back" data-stellar-background-ratio="0.7">
                         <div class="main-box">
                             <div class="cont-logo">
                                 <img src="img/home/logo-gabriel-printing.png">
                             </div>
-                            <div class="circle">
+                            <div class="circle  welcome-msgwd">
                                 <img src="img/bann2/circulo.png">
                             </div>
                             
@@ -64,7 +64,7 @@
                                 <img src="img/bann2/mujer-feliz.png">
                             </div>
                             
-                            <div class="text-title">
+                            <div class="text-title  welcome-msgw">
                                 <p>lorem ipsum dolor</p>
                             </div> 
                             
@@ -78,9 +78,9 @@
                 </section>
                 
                 <section class="bann3-section">
-                    <div class="lunar-back">
+                    <div class="lunar-back" data-stellar-background-ratio="0.4">
                         <div class="main-box">
-                            <div class="cont-logo-center">
+                            <div class="cont-logo-center welcome-msgwd">
                                 <img src="img/home/logo-gabriel-printing.png">
                             </div>
                             
@@ -88,7 +88,7 @@
                                 <img src="img/bann3/BANNER-03.png">
                             </div>
                             
-                            <div class="text-title-center">
+                            <div class="text-title-center  welcome-msgw">
                                 <p>lorem ipsum dolor</p>
                             </div> 
                             
@@ -103,5 +103,35 @@
                 
             </div>
         </div>
+        <script src="./jquery-2.0.2.js"></script>
+        <script src="./jquery.stellar.min.js"></script>
+        <script>            
+                $(window).stellar();            
+        </script>
+        
+        <script>
+            $(document).ready(function() {
+            $(window).on('scroll', function() {
+                var wScroll = $(this).scrollTop();
+                var fade = 35;
+                var introHeight = $('.intro-wrapper').height();
+                var fadePoint = (fade / 100) * introHeight - $('.title').height();
+                var suma = wScroll - 1100;
+                
+                
+                $('.welcome-msg').css({
+                'transform': 'translate(0px, ' + wScroll * 1.5 + 'px)'
+                });
+                
+                $('.welcome-msgw').css({
+                'transform': 'translate(0px, ' + suma * .1 + 'px)'
+                });
+                $('.welcome-msgwd').css({
+                'transform': 'translate(0px, ' + suma * .2 + 'px)'
+                });
+            });
+            });
+        </script>
+
     </body>
 </html>
