@@ -87,17 +87,6 @@ header {
     height: 100%;
     overflow: hidden;
 }
-
-.home-section .lunar-back .main-box .circle{
-    transform: translate(300%, 0);
-}
-
-.home-section .lunar-back .main-box .cont-body {
-    transform: translate(-300%, 0);
-}
-.home-section .lunar-back .main-box .text-title{
-    transform: translate(0%, -300%);
-}
 .bann2-section {
     background: url(../img/bann2/background.png);
     width: 100%;
