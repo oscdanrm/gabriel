@@ -85,14 +85,34 @@ header {
     background: url(../img/home/background.png);
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
+.home-section .lunar-back .main-box .circle{
+    transform: translate(300%, 0);
+}
+
+.home-section .lunar-back .main-box .cont-body {
+    transform: translate(-300%, 0);
+}
+.home-section .lunar-back .main-box .text-title{
+    transform: translate(0%, -300%);
+}
 .bann2-section {
     background: url(../img/bann2/background.png);
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
-
+.bann2-section .lunar-back .main-box .circle {
+    transform: translate(-300%, 0);
+}
+.bann2-section .lunar-back .main-box .cont-body {
+    transform: translate(0%, 300%);
+}
+.bann2-section .lunar-back .main-box .text-title {
+    transform: translate(0%, 300%);
+}
 .lunar-back {
     background: url(../img/home/puntos.png);
     width: 100%;
@@ -278,6 +298,19 @@ header {
     background: url(../img/bann3/background.png);
     width: 100%;
     height: 100%;
+    overflow: hidden;
+}
+
+.bann3-section .lunar-back .main-box .cont-logo-center{
+    transform: translate(-200%,0)
+}
+.bann3-section .lunar-back .main-box .cont-body-center{
+    transform: translate(0%,300%)
+
+}
+.bann3-section .lunar-back .main-box .text-title-center{
+    transform: translate(-300%,300%)
+
 }
 
 .cont-logo-center {
